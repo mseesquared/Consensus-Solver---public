@@ -1,12 +1,13 @@
+#!/usr/bin/python
+
 from __future__ import division
 import cvxpy as cvx
 import numpy as np
-import ../src/splitter
+import splitter
 from cvxpy.tests.base_test import BaseTest
 import unittest
 import time
 import matplotlib.pyplot as plt
-
 
 class TestConsensus(BaseTest):
 

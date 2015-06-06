@@ -8,3 +8,12 @@ To run use splitter.py, the following libraries are needed:
   SciPy
   PyMetis
   CVXPY
+
+To install these, run
+
+  pip install \<library\>
+
+## Testing
+Additional test cases/optimization problems can be made by adding to tests.py. To run, simply run
+
+  ./tests.py
